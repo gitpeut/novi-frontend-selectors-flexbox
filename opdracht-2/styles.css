@@ -2,4 +2,83 @@
    OEFENEN MET FLEXBOX
 ========================================================= */
 
-/* Schrijf hier  jouw CSS! */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.one {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.two {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.three {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-basis: 500px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    flex-basis: 60px;
+}
+
+#form-div {
+    /*background-color: yellow;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+                        /*see https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/
+                        /*align-content note: Note: This property only takes effect on */
+                        /*multi-line flexible containers, where flex-flow is set to either wrap or wrap-reverse). */
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.five {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+article {
+    flex-basis: 400px;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+
+
+
+
+
+
+
+
+
