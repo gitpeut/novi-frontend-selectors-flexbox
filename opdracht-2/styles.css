@@ -50,13 +50,13 @@ li {
 
 form {
     display: flex;
-    flex-wrap: wrap;
+ /*   flex-wrap: wrap; */
                         /*see https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/
                         /*align-content note: Note: This property only takes effect on */
                         /*multi-line flexible containers, where flex-flow is set to either wrap or wrap-reverse). */
     flex-direction: column;
     justify-content: center;
-    align-content: center;
+    align-items: center;
 
 }
 
